@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ห้องประชุม ฝยท.</title>
+    <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+    <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+/*         iframe {
+            border: solid 1px #777;
+        } */
+    </style>
+</head>
+<body>
+
+    <h1>Meeting Room Calendar</h1>
+
+    <center>
+        <!-- Google Calendar Embed -->
+        <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=1&ctz=Asia%2FBangkok&showPrint=0&showTz=0&showCalendars=0&mode=MONTH&title=%E0%B8%AB%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B8%E0%B8%A1%20%E0%B8%9D%E0%B8%A2%E0%B8%97.&src=ZHNhaWRlcHRAZ21haWwuY29t&src=ZW4udGgjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23E4C441&color=%23D50000" style="border:solid 1px #777" width="400" height="400" frameborder="0" scrolling="no"></iframe
+        <br><br><br>
+
+        <!-- Google Calendar Appointment Scheduling -->
+        <script>
+            (function() {
+                var target = document.currentScript;
+                window.addEventListener('load', function() {
+                    calendar.schedulingButton.load({
+                        url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0OqnHiFrPwcMtq3hK-sUvbCKZLRJ6xutYVsAJvOKONRhdr9npyVZlfACU8O12riIPdWJQ21jXh?gv=true',
+                        color: '#E4C441',
+                        label: 'จองห้อมประชุม ฝยท.',
+                        target,
+                    });
+                });
+            })();
+        </script>
+        <!-- end Google Calendar Appointment Scheduling -->
+    </center>
+
+</body>
+</html>
